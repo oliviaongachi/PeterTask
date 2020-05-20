@@ -1,0 +1,128 @@
+
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #444;
+}
+*{
+margin:0px;
+padding:0px;
+
+}
+  
+#root {
+  
+  
+}
+
+form {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+[type="text"],
+button {
+  display: inline-block;
+  -webkit-appearance: none;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: 2px solid #007bff;
+  margin: 0 .5rem;
+}
+
+[type="text"] {
+  width: 100%;
+}
+
+[type="text"]:active,
+[type="text"]:focus {
+  outline: 0;
+  border: 2px solid #007bff;
+}
+.heading{
+	font-family: "Montserrat SemiBold", Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 1;
+    color: #fff;
+    position: absolute;
+  white-space: nowrap;
+    min-height: 40px;
+    min-width:354px;
+    max-height: 116px;
+    max-width: 890px;
+    padding-top: 130px;
+    text-align: center;
+    left:20%;
+    top:20%;
+}
+[type="checkbox"] {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+h1 {
+     padding: 6px 16px;
+    border: 1px solid #00a2c5;
+    border-radius: 3px;
+    font-family: "Montserrat Medium", Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #00a2c5;
+	
+	position: absolute;
+	top:5vw;
+	right:5vw;
+	
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+h1:hover{
+	color: white;
+	border-color:white;
+}
+
+a {
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #f4f4f4;
+  border-radius: 4px;
+}
+
+li span {
+  display: inline-block;
+  padding: .5rem;
+  width: 250px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+
+li span:hover {
+  background: rgba(179, 215, 255, 0.52);
+}
+
+li span:focus {
+  outline: 0;
+  border: 2px solid #007bff;
+  background: rgba(179, 207, 255, 0.52)
+}
